@@ -1,0 +1,298 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'express',
+1 verbose cli   'mysql2',
+1 verbose cli   'sequelize',
+1 verbose cli   'argon2',
+1 verbose cli   'cors',
+1 verbose cli   'dotenv' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData express
+8 silly fetchPackageMetaData mysql2
+9 silly fetchPackageMetaData sequelize
+10 silly fetchPackageMetaData argon2
+11 silly fetchPackageMetaData cors
+12 silly fetchPackageMetaData dotenv
+13 silly fetchNamedPackageData express
+14 silly mapToRegistry name express
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/express
+18 silly fetchNamedPackageData mysql2
+19 silly mapToRegistry name mysql2
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/mysql2
+23 silly fetchNamedPackageData sequelize
+24 silly mapToRegistry name sequelize
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/sequelize
+28 silly fetchNamedPackageData argon2
+29 silly mapToRegistry name argon2
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/argon2
+33 silly fetchNamedPackageData cors
+34 silly mapToRegistry name cors
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry uri https://registry.npmjs.org/cors
+38 silly fetchNamedPackageData dotenv
+39 silly mapToRegistry name dotenv
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry uri https://registry.npmjs.org/dotenv
+43 verbose request uri https://registry.npmjs.org/mysql2
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 11:06:06 AM
+46 verbose request id 92e2996db7885cea
+47 http request GET https://registry.npmjs.org/mysql2
+48 verbose request uri https://registry.npmjs.org/argon2
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 11:06:06 AM
+51 http request GET https://registry.npmjs.org/argon2
+52 verbose request uri https://registry.npmjs.org/express
+53 verbose request no auth needed
+54 info attempt registry request try #1 at 11:06:07 AM
+55 verbose etag W/"1c5ef3c072d8a81ecfaf6a5679e9f370"
+56 verbose lastModified Tue, 01 Nov 2022 05:15:59 GMT
+57 http request GET https://registry.npmjs.org/express
+58 verbose request uri https://registry.npmjs.org/cors
+59 verbose request no auth needed
+60 info attempt registry request try #1 at 11:06:07 AM
+61 verbose etag W/"a5a3fd10619601c6ae0569fc83d2d830"
+62 verbose lastModified Sun, 19 Jun 2022 09:06:16 GMT
+63 http request GET https://registry.npmjs.org/cors
+64 verbose request uri https://registry.npmjs.org/dotenv
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 11:06:07 AM
+67 verbose etag W/"75fcf7b500e492deb917633cdd9b4a92"
+68 verbose lastModified Sun, 13 Nov 2022 06:08:12 GMT
+69 http request GET https://registry.npmjs.org/dotenv
+70 verbose request uri https://registry.npmjs.org/sequelize
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 11:06:07 AM
+73 verbose etag W/"00f8d9d525e79a2ab3dd260d82576dfd"
+74 verbose lastModified Tue, 15 Nov 2022 14:26:45 GMT
+75 http request GET https://registry.npmjs.org/sequelize
+76 http 304 https://registry.npmjs.org/dotenv
+77 verbose headers { date: 'Mon, 21 Nov 2022 04:06:08 GMT',
+77 verbose headers   connection: 'keep-alive',
+77 verbose headers   'cf-ray': '76d68d0ce90fdf93-CGK',
+77 verbose headers   'cache-control': 'public, max-age=300',
+77 verbose headers   etag: '"75fcf7b500e492deb917633cdd9b4a92"',
+77 verbose headers   'last-modified': 'Sun, 13 Nov 2022 06:08:12 GMT',
+77 verbose headers   vary: 'Accept-Encoding',
+77 verbose headers   'cf-cache-status': 'REVALIDATED',
+77 verbose headers   'x-amz-replication-status': 'COMPLETED',
+77 verbose headers   server: 'cloudflare' }
+78 silly get cb [ 304,
+78 silly get   { date: 'Mon, 21 Nov 2022 04:06:08 GMT',
+78 silly get     connection: 'keep-alive',
+78 silly get     'cf-ray': '76d68d0ce90fdf93-CGK',
+78 silly get     'cache-control': 'public, max-age=300',
+78 silly get     etag: '"75fcf7b500e492deb917633cdd9b4a92"',
+78 silly get     'last-modified': 'Sun, 13 Nov 2022 06:08:12 GMT',
+78 silly get     vary: 'Accept-Encoding',
+78 silly get     'cf-cache-status': 'REVALIDATED',
+78 silly get     'x-amz-replication-status': 'COMPLETED',
+78 silly get     server: 'cloudflare' } ]
+79 verbose etag https://registry.npmjs.org/dotenv from cache
+80 verbose get saving dotenv to /home/triyas/.npm/registry.npmjs.org/dotenv/.cache.json
+81 http 200 https://registry.npmjs.org/mysql2
+82 verbose headers { date: 'Mon, 21 Nov 2022 04:06:08 GMT',
+82 verbose headers   'content-type': 'application/json',
+82 verbose headers   'transfer-encoding': 'chunked',
+82 verbose headers   connection: 'keep-alive',
+82 verbose headers   'cf-ray': '76d68d0cbb50df87-CGK',
+82 verbose headers   'access-control-allow-origin': '*',
+82 verbose headers   'cache-control': 'public, max-age=300',
+82 verbose headers   etag: 'W/"2f6ad3ae02fbe530d5d48c03cea8c2e9"',
+82 verbose headers   'last-modified': 'Mon, 07 Nov 2022 10:13:00 GMT',
+82 verbose headers   vary: 'accept-encoding, accept',
+82 verbose headers   'cf-cache-status': 'REVALIDATED',
+82 verbose headers   'x-amz-replication-status': 'COMPLETED',
+82 verbose headers   server: 'cloudflare',
+82 verbose headers   'content-encoding': 'gzip' }
+83 silly get cb [ 200,
+83 silly get   { date: 'Mon, 21 Nov 2022 04:06:08 GMT',
+83 silly get     'content-type': 'application/json',
+83 silly get     'transfer-encoding': 'chunked',
+83 silly get     connection: 'keep-alive',
+83 silly get     'cf-ray': '76d68d0cbb50df87-CGK',
+83 silly get     'access-control-allow-origin': '*',
+83 silly get     'cache-control': 'public, max-age=300',
+83 silly get     etag: 'W/"2f6ad3ae02fbe530d5d48c03cea8c2e9"',
+83 silly get     'last-modified': 'Mon, 07 Nov 2022 10:13:00 GMT',
+83 silly get     vary: 'accept-encoding, accept',
+83 silly get     'cf-cache-status': 'REVALIDATED',
+83 silly get     'x-amz-replication-status': 'COMPLETED',
+83 silly get     server: 'cloudflare',
+83 silly get     'content-encoding': 'gzip' } ]
+84 verbose get saving mysql2 to /home/triyas/.npm/registry.npmjs.org/mysql2/.cache.json
+85 http 200 https://registry.npmjs.org/sequelize
+86 verbose headers { date: 'Mon, 21 Nov 2022 04:06:08 GMT',
+86 verbose headers   'content-type': 'application/json',
+86 verbose headers   'transfer-encoding': 'chunked',
+86 verbose headers   connection: 'keep-alive',
+86 verbose headers   'cf-ray': '76d68d0cd8efdf8b-CGK',
+86 verbose headers   'access-control-allow-origin': '*',
+86 verbose headers   'cache-control': 'public, max-age=300',
+86 verbose headers   etag: 'W/"1c94783cb0ec7b55e95e1596ff64125f"',
+86 verbose headers   'last-modified': 'Sat, 19 Nov 2022 16:30:36 GMT',
+86 verbose headers   vary: 'accept-encoding, accept',
+86 verbose headers   'cf-cache-status': 'REVALIDATED',
+86 verbose headers   'x-amz-replication-status': 'COMPLETED',
+86 verbose headers   server: 'cloudflare',
+86 verbose headers   'content-encoding': 'gzip' }
+87 silly get cb [ 200,
+87 silly get   { date: 'Mon, 21 Nov 2022 04:06:08 GMT',
+87 silly get     'content-type': 'application/json',
+87 silly get     'transfer-encoding': 'chunked',
+87 silly get     connection: 'keep-alive',
+87 silly get     'cf-ray': '76d68d0cd8efdf8b-CGK',
+87 silly get     'access-control-allow-origin': '*',
+87 silly get     'cache-control': 'public, max-age=300',
+87 silly get     etag: 'W/"1c94783cb0ec7b55e95e1596ff64125f"',
+87 silly get     'last-modified': 'Sat, 19 Nov 2022 16:30:36 GMT',
+87 silly get     vary: 'accept-encoding, accept',
+87 silly get     'cf-cache-status': 'REVALIDATED',
+87 silly get     'x-amz-replication-status': 'COMPLETED',
+87 silly get     server: 'cloudflare',
+87 silly get     'content-encoding': 'gzip' } ]
+88 verbose get saving sequelize to /home/triyas/.npm/registry.npmjs.org/sequelize/.cache.json
+89 http 304 https://registry.npmjs.org/express
+90 verbose headers { date: 'Mon, 21 Nov 2022 04:06:09 GMT',
+90 verbose headers   connection: 'keep-alive',
+90 verbose headers   'cf-ray': '76d68d0cbcecdf97-CGK',
+90 verbose headers   'cache-control': 'public, max-age=300',
+90 verbose headers   etag: '"1c5ef3c072d8a81ecfaf6a5679e9f370"',
+90 verbose headers   'last-modified': 'Tue, 01 Nov 2022 05:15:59 GMT',
+90 verbose headers   vary: 'Accept-Encoding',
+90 verbose headers   'cf-cache-status': 'REVALIDATED',
+90 verbose headers   'x-amz-replication-status': 'COMPLETED',
+90 verbose headers   server: 'cloudflare' }
+91 silly get cb [ 304,
+91 silly get   { date: 'Mon, 21 Nov 2022 04:06:09 GMT',
+91 silly get     connection: 'keep-alive',
+91 silly get     'cf-ray': '76d68d0cbcecdf97-CGK',
+91 silly get     'cache-control': 'public, max-age=300',
+91 silly get     etag: '"1c5ef3c072d8a81ecfaf6a5679e9f370"',
+91 silly get     'last-modified': 'Tue, 01 Nov 2022 05:15:59 GMT',
+91 silly get     vary: 'Accept-Encoding',
+91 silly get     'cf-cache-status': 'REVALIDATED',
+91 silly get     'x-amz-replication-status': 'COMPLETED',
+91 silly get     server: 'cloudflare' } ]
+92 verbose etag https://registry.npmjs.org/express from cache
+93 verbose get saving express to /home/triyas/.npm/registry.npmjs.org/express/.cache.json
+94 http 304 https://registry.npmjs.org/cors
+95 verbose headers { date: 'Mon, 21 Nov 2022 04:06:09 GMT',
+95 verbose headers   connection: 'keep-alive',
+95 verbose headers   'cf-ray': '76d68d0cb825df93-CGK',
+95 verbose headers   'cache-control': 'public, max-age=300',
+95 verbose headers   etag: '"a5a3fd10619601c6ae0569fc83d2d830"',
+95 verbose headers   'last-modified': 'Sun, 19 Jun 2022 09:06:16 GMT',
+95 verbose headers   vary: 'Accept-Encoding',
+95 verbose headers   'cf-cache-status': 'REVALIDATED',
+95 verbose headers   'x-amz-replication-status': 'COMPLETED',
+95 verbose headers   server: 'cloudflare' }
+96 silly get cb [ 304,
+96 silly get   { date: 'Mon, 21 Nov 2022 04:06:09 GMT',
+96 silly get     connection: 'keep-alive',
+96 silly get     'cf-ray': '76d68d0cb825df93-CGK',
+96 silly get     'cache-control': 'public, max-age=300',
+96 silly get     etag: '"a5a3fd10619601c6ae0569fc83d2d830"',
+96 silly get     'last-modified': 'Sun, 19 Jun 2022 09:06:16 GMT',
+96 silly get     vary: 'Accept-Encoding',
+96 silly get     'cf-cache-status': 'REVALIDATED',
+96 silly get     'x-amz-replication-status': 'COMPLETED',
+96 silly get     server: 'cloudflare' } ]
+97 verbose etag https://registry.npmjs.org/cors from cache
+98 verbose get saving cors to /home/triyas/.npm/registry.npmjs.org/cors/.cache.json
+99 http 200 https://registry.npmjs.org/argon2
+100 verbose headers { date: 'Mon, 21 Nov 2022 04:06:09 GMT',
+100 verbose headers   'content-type': 'application/json',
+100 verbose headers   'transfer-encoding': 'chunked',
+100 verbose headers   connection: 'keep-alive',
+100 verbose headers   'cf-ray': '76d68d0cbcdddf74-CGK',
+100 verbose headers   'access-control-allow-origin': '*',
+100 verbose headers   'cache-control': 'public, max-age=300',
+100 verbose headers   etag: 'W/"c20125ee5aa9b433f23fbafccbac2178"',
+100 verbose headers   'last-modified': 'Tue, 08 Nov 2022 15:18:20 GMT',
+100 verbose headers   vary: 'accept-encoding, accept',
+100 verbose headers   'cf-cache-status': 'MISS',
+100 verbose headers   'x-amz-replication-status': 'COMPLETED',
+100 verbose headers   server: 'cloudflare',
+100 verbose headers   'content-encoding': 'gzip' }
+101 silly get cb [ 200,
+101 silly get   { date: 'Mon, 21 Nov 2022 04:06:09 GMT',
+101 silly get     'content-type': 'application/json',
+101 silly get     'transfer-encoding': 'chunked',
+101 silly get     connection: 'keep-alive',
+101 silly get     'cf-ray': '76d68d0cbcdddf74-CGK',
+101 silly get     'access-control-allow-origin': '*',
+101 silly get     'cache-control': 'public, max-age=300',
+101 silly get     etag: 'W/"c20125ee5aa9b433f23fbafccbac2178"',
+101 silly get     'last-modified': 'Tue, 08 Nov 2022 15:18:20 GMT',
+101 silly get     vary: 'accept-encoding, accept',
+101 silly get     'cf-cache-status': 'MISS',
+101 silly get     'x-amz-replication-status': 'COMPLETED',
+101 silly get     server: 'cloudflare',
+101 silly get     'content-encoding': 'gzip' } ]
+102 verbose get saving argon2 to /home/triyas/.npm/registry.npmjs.org/argon2/.cache.json
+103 silly install normalizeTree
+104 silly loadCurrentTree Finishing
+105 silly loadIdealTree Starting
+106 silly install loadIdealTree
+107 silly cloneCurrentTree Starting
+108 silly install cloneCurrentTreeToIdealTree
+109 silly cloneCurrentTree Finishing
+110 silly loadShrinkwrap Starting
+111 silly install loadShrinkwrap
+112 silly loadShrinkwrap Finishing
+113 silly loadAllDepsIntoIdealTree Starting
+114 silly install loadAllDepsIntoIdealTree
+115 silly resolveWithNewModule dotenv@16.0.3 checking installable status
+116 silly cache add args [ 'dotenv', null ]
+117 verbose cache add spec dotenv
+118 silly resolveWithNewModule mysql2@2.3.3 checking installable status
+119 silly cache add args [ 'mysql2', null ]
+120 verbose cache add spec mysql2
+121 verbose stack Error: Missing required argument #1
+121 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+121 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+121 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+121 verbose stack     at /usr/share/npm/lib/install/deps.js:190:5
+121 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+121 verbose stack     at Array.forEach (<anonymous>)
+121 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+121 verbose stack     at Array.forEach (<anonymous>)
+121 verbose stack     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+121 verbose stack     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+122 verbose cwd /home/triyas/data/Project/BelajarNodeJs/node-js-role/backend
+123 error Linux 5.4.0-132-generic
+124 error argv "/usr/bin/node" "/usr/bin/npm" "i" "express" "mysql2" "sequelize" "argon2" "cors" "dotenv"
+125 error node v8.10.0
+126 error npm  v3.5.2
+127 error code EMISSINGARG
+128 error typeerror Error: Missing required argument #1
+128 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+128 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+128 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+128 error typeerror     at /usr/share/npm/lib/install/deps.js:190:5
+128 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+128 error typeerror     at Array.forEach (<anonymous>)
+128 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+128 error typeerror     at Array.forEach (<anonymous>)
+128 error typeerror     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+128 error typeerror     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+129 error typeerror This is an error with npm itself. Please report this error at:
+129 error typeerror     <http://github.com/npm/npm/issues>
+130 verbose exit [ 1, true ]
