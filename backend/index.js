@@ -6,8 +6,10 @@ import SequelizeStore from "connect-session-sequelize";
 import router from "./routes/UsersRouter.js";
 import ProductsRouter from "./routes/ProductsRouter.js";
 import AuthRouter from "./routes/AuthRouter.js";
+import CronJob from "node-cron";
 
 import dotenv from "dotenv";
+import {initScheduledJobs} from "./cron/ScheduleJobs.js";
 
 dotenv.config();
 const app = express();
@@ -18,6 +20,8 @@ const store = new sessionStore({
 });
 // generate table
 //(async ()=>{ await db.sync()})();
+
+app.set("port", process.env.APP_PORT||5000);
 
 // session
 app.use(session({
@@ -43,6 +47,10 @@ app.use(AuthRouter);
 // membuat table session
 //store.sync();
 
-app.listen(process.env.APP_PORT,()=>{
-    console.log(`Server up and running `);
+initScheduledJobs();
+
+
+
+app.listen(app.get("port"),()=>{
+    console.log(`Server up and running in port ${app.get("port")}`);
 });
